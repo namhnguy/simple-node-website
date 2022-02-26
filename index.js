@@ -2,7 +2,6 @@ const http = require('http')
 const fs = require('fs')
 const url = require('url')
 
-
 function createServer() {
     const port = process.env.PORT || 8080
 
@@ -41,7 +40,3 @@ function createServer() {
 createServer();
 
 
-// let homeURL = new URL('localhost:8080', 'localhost:8080');
-// let aboutURL = new URL('localhost:8080/about', 'localhost:8080/about');
-// let contactURL = new URL('localhost:8080/contact-me', 'localhost:8080/contact-me');
-// console.log(myURL);
